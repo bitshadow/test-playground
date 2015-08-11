@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+  <title>testPlayground</title>
+</head>
+<body>
+  <h1>plusser for testPlayground</h1>
+  <div class="app">
+    <input id="numberOne" type="number"><span> +</span>
+    <input id="numberTwo" type="number">
+    <button id="plusser">Plus numbers</button>
+    <h3 id="result"></h3>
+  </div>
+  <script>
+    var numberOne = document.getElementById('numberOne'),
+      numberTwo = document.getElementById('numberTwo'),
+      resultDisplay = document.getElementById('result'),
+      plusser = document.getElementById('plusser');
+    plusser.addEventListener('click', function(event) {
+      var first = parseInt(numberOne.value, 10),
+        second = parseInt(numberTwo.value, 10),
+        result = plus(first, second);
+      resultDisplay.innerHTML = "= " + result;
+    });
+  </script>
+  <script src="js/plus.js"></script>
+</body>
