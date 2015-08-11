@@ -10,7 +10,6 @@ gulp.task('serve', function(event) {
         port: 1987,
         livereload: true
     });
-    // sets up a livereload that watches for any changes in the root
     watch({
             glob: "out/**/*.*"
         })
