@@ -2,7 +2,7 @@
 test-playground
 ==============
 
-a repo for examples on how to set up mocha
+A repo for examples on how to set up mocha
 
 ## to get up and running
 Assuming you've got `node`, `gulp`, `phantomjs`, `mocha` and `mocha-phantomjs` installed.
